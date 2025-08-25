@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Force text files to use LF (Unix style) line endings
+*.py text eol=lf
+*.md text eol=lf
+
+# Treat database files as binary
+*.db binary
+
+# Mark requirements as text
+requirements.txt text
